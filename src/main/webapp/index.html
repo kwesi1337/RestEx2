@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div>
+                    
+                    <h1>Quote of the day</h1>
+                    
+                    <p id="quoteToday"></p>
+                    
+                    <br>
+                    
+                    <input type="button" id="getRandomQuoteButton" value="Get random quote">
+                    
+                    
+                </div>
+                
+                <br>
+                
+                <div>
+                    <form id="createQuote">
+                        
+                        Create quote:<br>
+                        
+                        <input type="text" name="createQuoteText" placeholder="insert quote" required>
+                        <input type="submit" id="createQuoteButton" value="create">
+                        
+                        
+                    </form>
+                </div>
+                <br>
+                <div>
+                    
+                    <form id="editQuote">
+                        
+                        Find the quote:<br>
+                        
+                        <input type="text" name="updateQuoteText" id="findQuote" placeholder="insert quotre id" required>
+                        <input type="button" id="findQuoteButton" value="Find">
+                        <input type="button" id="putQuoteButton" value="Save changes">
+                        <input type="button" id="deleteQuoteButton" value="delete quote">
+                        
+                        
+                    </form>
+                    
+                    <p id="test"></p>
+                    
+                    
+            </div>
+        </div>
+        </div>
+        <div hidden id="error" class="alert alert-danger" role="alert">
+            
+            
+        </div>
+        <div>
+            
+             <link rel="stylesheet" property="" type="text/boostrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" property="" type="text/boostrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="assets/javascript.js"></script> 
+            </div>
+        
+    </body>
+</html>
